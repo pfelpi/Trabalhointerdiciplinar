@@ -1,0 +1,196 @@
+<script type="text/javascript">
+	
+	let men;
+
+
+	for (var i = 1; i <= 10; i++) {
+  	var numero = parseInt(prompt(" digite o " + i + "º número:"));
+  		if (i === 1) {
+    	men = numero;
+  	} else {
+    
+    	if (numero < men) {
+      men = numero;
+    }
+  }
+}
+		alert("O menor número digitado é: " + men);
+</script>
+Matemática: Juros Compostos - Uma Viagem Histórica
+Em um mergulho no universo da Matemática, exploramos a fascinante formula por trás dos juros compostos. Descobrimos como os juros compostos se tornaram uma peça crucial no quebra-cabeça econômico, influenciando desde investimentos até empréstimos, proporcionando uma compreensão mais profunda do papel dessa fórmula matemática em nosso cotidiano.
+Português: A Arte da Narrativa Gráfica na HQ
+Adentrando o terreno da língua portuguesa, exploramos a gramática e estrutura por trás da criação de uma História em Quadrinhos (HQ). Analisamos como elementos linguísticos, como diálogos e narrativas, se entrelaçam visualmente para contar uma história envolvente. Este mergulho no universo da língua portuguesa proporciona não apenas uma compreensão da gramática, mas também a habilidade de utilizar a linguagem de maneira eficaz na construção de narrativas visuais cativantes.
+Projeto e Web Designing: A Criação Visual da HQ
+Na disciplina de Projeto e Web Designing, concentramo-nos na criação visual da HQ. Exploramos as técnicas de design gráfico que dão vida à narrativa, desde o layout das páginas até a escolha de cores e tipografia. Com ferramentas modernas de design, moldamos cada cena da HQ, criando uma experiência visualmente envolvente. O projeto não é apenas estético, mas também funcional, garantindo que a narrativa seja transmitida de forma clara e impactante.
+Front-End: A Construção do Site da HQ
+Dando continuidade ao processo, abordamos o Front-End na construção do site que abrigará nossa HQ. Aqui, traduzimos a narrativa visualmente rica da HQ para uma plataforma interativa na web. Utilizamos linguagens como HTML, CSS e JavaScript para criar uma experiência de usuário fluida e responsiva. Cada página do site é desenvolvida para garantir uma navegação intuitiva, permitindo que os leitores explorem a história de maneira envolvente.
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HQ</title>
+    <style>
+        body {
+            width: 100%;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("img/4883373.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        header {
+            border-style: solid;
+            border-color: black;
+            border-width: 2px;
+            background-color: darkorange;
+            color: white;
+            padding: 8px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: darkorange;
+            color: white;
+            text-align: center;
+            padding: 0px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        nav {
+            padding: 25px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #FF4500;
+            padding: 1px;
+            border: 3px;
+            border-color: black;
+            border-style: solid;
+            border-left: 0px;
+            border-right: 0px;
+        }
+
+        nav {
+            background-color: #FF4500;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: block;
+            margin: 0 20px 10px 0;
+        }
+
+        nav ul li a {
+            display: block;
+            width: 100%;
+            margin-right: 0;
+        }
+
+        /* Adicionado estilo específico para dispositivos móveis */
+        @media only screen and (max-width: 600px) {
+            .image-container a {
+                width: 100%; /* Ocupa 100% da largura da tela */
+            }
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 10px;
+        }
+
+        .image-container a {
+            text-decoration: none;
+            width: calc(30% - 20px);
+            margin-bottom: 10px;
+            border: 2px solid #000;
+            display: block;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="img/logo_ifms_dourados.png" height="100" alt="Logo do IF">
+        <h1>Português - HQ - </h1>
+    </header>
+
+    <div>
+        <nav>
+            <ul>
+                <li><a href="trabinter.html" aria-label="Voltar à página principal">Voltar à página principal</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Adicionado um novo contêiner para as imagens -->
+    <div class="image-container">
+       <a href="img/1quadroremodel.jpg" target="_blank">
+                <img src="img/1quadroremodel.jpg" alt="quadro1">
+            </a>
+            <a href="img/2quadroremodel.jpg" target="_blank">
+                <img src="img/2quadroremodel.jpg" alt="quadro2">
+            </a>
+            <a href="img/3quadroremodel.jpg" target="_blank">
+                <img src="img/3quadroremodel.jpg" alt="quadro3">
+            </a>
+            <a href="img/4quadroremodel.jpg" target="_blank">
+                <img src="img/4quadroremodel.jpg" alt="quadro4">
+            </a>
+            <a href="img/5quadroremodel.jpg" target="_blank">
+                <img src="img/5quadroremodel.jpg" alt="quadro5">
+            </a>
+            <a href="img/6quadroremodel.jpg" target="_blank">
+                <img src="img/6quadroremodel.jpg" alt="quadro6">
+            </a>
+            <a href="img/7quadroremodel.jpg" target="_blank">
+                <img src="img/7quadroremodel.jpg" alt="quadro7">
+            </a>
+            <a href="img/8quadroremodel.jpg" target="_blank">
+                <img src="img/8quadroremodel.jpg" alt="quadro8">
+            </a>
+            <a href="img/9quadroremodel.jpg" target="_blank">
+                <img src="img/9quadroremodel.jpg" alt="quadro9">
+            </a>
+            <a href="img/10quadroremodel.jpg" target="_blank">
+                <img src="img/10quadroremodel.jpg" alt="quadro10">
+            </a>
+            <a href="img/11quadroremodel.jpg" target="_blank">
+                <img src="img/11quadroremodel.jpg" alt="quadro11">
+            </a>
+    </div>
+
+    <footer>
+        <p>IFMS - Desenvolvido por FELIPE LEITE - 2°C - Técnico para informática - © 2023</p>
+    </footer>
+
+</body>
+
+</html>
